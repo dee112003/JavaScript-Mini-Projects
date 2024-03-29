@@ -1,9 +1,9 @@
-const buttons = document.querySelectorAll('.button');
+const buttons = document.querySelectorAll(".button");
 
-const body = document.getElementsByTagName('body');
+const body = document.getElementsByTagName("body");
 
 buttons.forEach((ele) => {
-  ele.addEventListener('click', (e) => {
+  ele.addEventListener("click", (e) => {
     document.body.style.backgroundColor = `${e.target.id}`;
   });
 });

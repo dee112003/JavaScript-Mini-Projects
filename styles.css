@@ -95,7 +95,8 @@ nav a {
 img {
   width: 120px;
   border-radius: 50%;
-  padding: var(--PADDING-REM);
+  padding: 0.6rem;
+  ;
   margin: 0.5rem;
 }
 
@@ -114,7 +115,7 @@ img {
   font-size: 20px;
   margin: 1.2rem;
   background: papayawhip;
-  padding: 0.5rem;
+  padding: 0.7rem;
   width: 100%;
   cursor: pointer;
   text-decoration: none;

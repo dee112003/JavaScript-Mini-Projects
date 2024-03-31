@@ -1,18 +1,6 @@
 :root {
-  --GAP-SIZE: 1.5rem;
   --FONT-SIZE: 1.5rem;
   --BORDER-RADIUS: 0.5rem;
-  --BORDER-WIDTH: 0.2vh;
-  --TEXT-COLOR: wheat;
-  --BLOCK-COLOR: white;
-  --BORDER-COLOR: wheat;
-  --PADDING-VH: 4vh;
-  --PADDING-REM: 0.5rem;
-  --BACKGROUND-COLOR: #212121;
-  --BORDER: var(--BORDER-WIDTH) solid rgb(16, 22, 38);
-
-
-
 }
 
 * {
@@ -72,7 +60,8 @@ nav a {
   align-items: center;
   text-align: center;
   max-width: 500px;
-  margin-right: 1.5rem;
+  margin: 1.5rem 1.5rem;
+
 }
 
 .block-1 {
@@ -84,7 +73,8 @@ nav a {
 }
 
 .block-2 {
-  width: 90%;
+
+  width: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +86,6 @@ img {
   width: 120px;
   border-radius: 50%;
   padding: 0.6rem;
-  ;
   margin: 0.5rem;
 }
 
@@ -107,15 +96,14 @@ img {
 }
 
 .link-tree>li {
-  margin: 0 auto;
   border-radius: var(--BORDER-RADIUS);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  margin: 1.2rem;
+  margin: 1.5rem;
   background: papayawhip;
-  padding: 0.7rem;
+  padding: 1rem;
   width: 100%;
   cursor: pointer;
   text-decoration: none;
